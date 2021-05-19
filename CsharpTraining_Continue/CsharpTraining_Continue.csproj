@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Abstract_Class\**" />
+    <Compile Remove="AnotherExample\**" />
+    <Compile Remove="Interface_\**" />
+    <Compile Remove="Multiple_Inheritance\**" />
+    <EmbeddedResource Remove="Abstract_Class\**" />
+    <EmbeddedResource Remove="AnotherExample\**" />
+    <EmbeddedResource Remove="Interface_\**" />
+    <EmbeddedResource Remove="Multiple_Inheritance\**" />
+    <None Remove="Abstract_Class\**" />
+    <None Remove="AnotherExample\**" />
+    <None Remove="Interface_\**" />
+    <None Remove="Multiple_Inheritance\**" />
+  </ItemGroup>
+
+</Project>
